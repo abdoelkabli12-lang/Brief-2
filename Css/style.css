@@ -201,7 +201,7 @@ header ul {
   grid-gap: 20px;
 }
 
-.cont-img {
+.cont-img{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -232,7 +232,78 @@ header ul {
   font-size: 14px;
   width: 160px;
   left: 16px;
+  top: 10px;
   color: rgba(94, 98, 130, 1);
 }
+
+#Contact {
+  position: absolute;
+  left: 100px;
+  width: 75%;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list {
+  width: 15%;
+}
+
+.list h1 {
+  font-weight: var(--p-font);
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(24, 30, 75, 1);
+  position: relative;
+}
+
+.list h3 {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(0, 0, 0);
+  margin-bottom: 14pt;
+  position: relative;
+  margin-left: 150px;
+}
+
+.list ul li:not(last-child) {
+  margin-bottom: 8px;
+}
+
+.list ul li a {
+  font-family: 'Poppins', sans-serif;
+  font-weight : 410;
+  color: rgba(94, 98, 130, 1);
+}
+.list ul:first-of-type {
+  margin-left: 150px;
+}
+
+.list p {
+    font-family: 'Poppins', sans-serif;
+    color: rgba(94, 98, 130, 1);
+    font-size: 13px;
+    width: 220px;
+    font-weight : 410
+}
+
+.list h1,p {
+  bottom: 30px;
+}
+
+.list .socials a {
+  width: 40px;
+  height: 40px;
+  background: var(--bg-color);
+  display: inline-flex;
+  background: var(--bg-color);
+  color: var(--main-color);
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  font-size: 24px;
+}
+
 
 
