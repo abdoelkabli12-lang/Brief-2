@@ -789,4 +789,79 @@ p {
   font-size: 25px
 }
 
+#Contactus {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 650px;
+  top: 200px;
+
+}
+
+.Contus {
+  position: absolute;
+  right: 80px;
+}
+
+.Contus p{
+  position: absolute;
+  font-size: 25px;
+  color: rgba(94, 98, 130, 1);
+  font-weight: 410;
+  font-family: 'Poppins', sans-serif;
+  bottom: 0px;
+  left: 100px;
+}
+
+.Contus h1 {
+  position: absolute;
+  font-family: 'Volkhov', sans-serif;
+  font-weight: bold;
+  color: rgba(20, 24, 62, 1);
+  width: 400px;
+  font-size: 60px;
+  
+}
+
+.contactF {
+  position: absolute;
+  top: 400px;
+  left: 440px
+  
+
+}
+
+
+.contactF form {
+  position: absolute;
+  border-radius: 80px;
+  right: 0px;
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+  row-gap: 40px;
+  background: linear-gradient(rgba(233, 173, 73, 1), rgba(221, 195, 154, 1));
+  padding: 300px 200px 150px 200px;
+  outline: none;
+}
+
+.contactF label {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contactF form input {
+  position: relative;
+  top: 10px;
+  padding: 20px;
+  width: 300px;
+  border : none;
+  border-radius: 10px;
+}
+
+.contactF img {
+  position: absolute;
+  right: 190px;
+  z-index: 100;
+  object-fit: contain;
+  width: 350px;
+}
 
